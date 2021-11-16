@@ -34,6 +34,12 @@ const itemSchema = new mongoose.Schema({
         type: Number,
         default: 0
     },
+    lat:{
+        type: String
+    },
+    long:{
+        type: String
+    },
     categoryId : {
         type: ObjectId,
         ref: 'Category'
